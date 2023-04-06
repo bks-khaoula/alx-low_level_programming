@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * _puts_recursion - function prints a string _puts_recu();
- * @x: input variable
- * Return: Always return 0 
+ * _puts_recursion - function prints a string _puts_recursion(char *s);
+ * @s: input variable
+ * Return: Function Always Return (success)
  */
-void _puts_recursion(char *x)
+void _puts_recursion(char *s)
 {
-	if (*x)
+	if (*s)
 	{
-		_putchar(*x);
-		_puts_recursion(x + 1);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
+
 	else
-		_putchar('\n');
+	  _putchar('\n');
 }
