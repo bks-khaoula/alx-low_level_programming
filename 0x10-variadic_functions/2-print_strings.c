@@ -7,6 +7,7 @@
  * @separator: The string to separae numbers
  * @n: The number of strings
  * @...: A variable number of strings
+ * Description: If separator is NULL nothing happen or if string is nil is printed.
 **/
 void print_strings(const char *separator, const unsigned int n, ...)
 {
