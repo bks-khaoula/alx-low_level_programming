@@ -3,9 +3,10 @@
 
 /**
  * struct list_s - Funct that singly linked list
- * @str: string.
- * @len: length of the string.
- * @next: points to the next node.
+ *
+ * @str: string
+ * @len: length of the string
+ * @next: points to the next node
  */
 typedef struct list_s
 {
