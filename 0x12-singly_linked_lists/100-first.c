@@ -1,10 +1,11 @@
+
 #include <stdio.h>
 
 void first(void) __attribute__ ((constructor));
 
 /**
- * first - Function that print a sentence before the main
- * function is executed 
+ * first - prints a sentence before the main
+ * function is executed
  */
 void first(void)
 {
